@@ -38,7 +38,7 @@ const products = [{
   img: "https://raw.githubusercontent.com/netology-code/ra16-homeworks/master/events-state/layouts/img/5.jpg"
 }];
 
-function App(props) {
+function App() {
   return (
     <Store products = {products}/>
   )
